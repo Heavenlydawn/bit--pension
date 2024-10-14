@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/bitPension logo nbg.svg";
 import Facebook from "../../../public/facebook.svg";

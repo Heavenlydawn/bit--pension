@@ -28,7 +28,7 @@ const PensionStatisticsLeft = () => {
               </div>
               <div>
                 <p className="text-[#454444] text-lg leading-7">
-                  Whether you're self-employed, an entrepreneur,
+                  Whether you are self-employed, an entrepreneur,
                   <br /> or simply looking for a more flexible and
                   <br /> innovative way to save for retirement
                 </p>

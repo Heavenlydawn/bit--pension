@@ -1,7 +1,7 @@
 import React from "react";
 interface ButtonProps {
   text: string;
-  onClick?: any;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 const Button_Dark: React.FC<ButtonProps> = ({ text }) => {

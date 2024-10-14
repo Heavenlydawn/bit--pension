@@ -2,7 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   text: string;
-  onClick?: any;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 const Button_Light: React.FC<ButtonProps> = ({ text }) => {

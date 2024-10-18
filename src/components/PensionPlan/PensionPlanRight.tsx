@@ -3,17 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import Employees from "../../../public/employees.svg";
 import Tick from "../../../public/tick.svg";
-import Button_Clear from "../Buttons/Button_Clear";
+import Button_Clear from "../Buttons/Button_Dark";
 
 const PensionPlanRight = () => {
   return (
     <div>
-      <div>
+      <div className="py-20 md:py-0">
         <div className="relative">
           <div className="absolute right-5 -top-20">
             <Image src={Employees} alt="Employees Icon" />
           </div>
-          <p className="text-3xl font-semibold leading-10 mb-4">
+          <p className="text-3xl leading-10 mb-4">
           Not Satisfied with Your<br /> Current Pension Plan? <br />BitPension Has You Covered!
           </p>
         </div>

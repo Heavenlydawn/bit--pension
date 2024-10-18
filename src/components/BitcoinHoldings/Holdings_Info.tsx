@@ -12,7 +12,8 @@ const Holdings_Info = () => {
         <div className="absolute right-5 -top-20">
           <Image src={Business} alt="Business Icon" />
         </div>
-        <p className="text-3xl font-semibold leading-10 mb-4">
+
+        <p className="text-3xl leading-10 mb-4">
           <span className="text-[#0B7A38]"> Bitpension:</span> Increase Your
           <br /> Employee Benefits With The <br />
           Ultimate Long-Term Savings <br />

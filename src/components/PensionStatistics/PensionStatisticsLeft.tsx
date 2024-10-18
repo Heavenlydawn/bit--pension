@@ -3,18 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import Private from "../../../public/private_individual.svg";
 import Tick from "../../../public/tick.svg";
-import Button_Clear from "../Buttons/Button_Clear";
+import Button_Clear from "../Buttons/Button_Dark";
 
 const PensionStatisticsLeft = () => {
   return (
     <div>
       <div>
-        <div>
+        <div className="px-2 pt-20 md:p-0">
           <div className="relative">
             <div className="absolute right-5 -top-20">
               <Image src={Private} alt="Private Icon" />
             </div>
-            <p className="text-3xl font-semibold leading-10 mb-4">
+            <p className="text-2xl md:text-3xl font-medium leading-10 mb-4">
               Self-Employed or An
               <br /> Entrepreneur? Take Control of
               <br /> Your Pension with BitPension
@@ -48,7 +48,7 @@ const PensionStatisticsLeft = () => {
             </div>
           </section>
 
-          <div className="mt-6">
+          <div className="my-6">
             <Link href="/signup">
               <Button_Clear text="Get Started" />
             </Link>

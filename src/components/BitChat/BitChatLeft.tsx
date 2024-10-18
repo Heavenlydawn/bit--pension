@@ -17,7 +17,7 @@ const BitChatLeft = () => {
           <div className="flex items-center gap-8">
             <Image src={BitChatLogo} alt="BitPensionChat Icon" />
             <div>
-              <h2 className="text-xs md:text-2xl font-semibold py-3">
+              <h2 className="text-sm md:text-2xl py-3">
                 Bitpension Support
               </h2>
               <div className="flex items-center gap-2">
@@ -38,7 +38,7 @@ const BitChatLeft = () => {
         </div>
 
         <div className="text-left flex items-end justify-end gap-2 ">
-          <div className="bg-[#F4F2F0] font-semibold text-lg px-12 py-4 rounded-xl">
+          <div className="bg-[#F4F2F0] text-lg px-12 py-4 rounded-xl">
             <p>Hey, Why Bitpension?</p>
           </div>
           <Image src={User} alt="User" />
@@ -48,7 +48,7 @@ const BitChatLeft = () => {
           <div className="mt-4">
             <Image src={BitPensionChatIcon} alt="BitPensionChatIcon" />
           </div>
-          <div className="font-semibold text-xl">
+          <div className="text-xl">
             <p className=" bg-[#F8F8FA] rounded-xl p-4">
               Great question! Here’s why
               <br /> BitPension stands out:
@@ -79,7 +79,7 @@ const BitChatLeft = () => {
         </div>
 
         <div className="text-left flex items-end justify-end gap-2 ">
-          <div className="bg-[#F4F2F0] font-semibold text-lg px-12 py-4 rounded-xl">
+          <div className="bg-[#F4F2F0] text-lg px-12 py-4 rounded-xl">
             <p>That sounds really interesting! Thanks</p>
           </div>
           <Image src={User} alt="User" />

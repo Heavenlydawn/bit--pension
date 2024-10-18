@@ -15,8 +15,9 @@ const BitPensionPressHomeLeft = () => {
           In The <span className="text-[#0B7A38]">Press</span>
         </h2>
         <p className="text-[#7C7C7C] text-lg capitalize">
-          We could talk about this stuff all day, but you <br />shouldn’t just take
-          our word for it. Here’s what the<br /> press has to say about Bitpension.
+          We could talk about this stuff all day, but you <br />
+          should not just take our word for it. Here is what the
+          <br /> press has to say about Bitpension.
         </p>
       </div>
 

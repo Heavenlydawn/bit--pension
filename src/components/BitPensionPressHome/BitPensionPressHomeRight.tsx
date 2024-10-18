@@ -17,11 +17,11 @@ const BitPensionPressHomeRight = () => {
               alt={`Logo of ${presshome.image}`}
               width={380}
               height={168}
-              className="object-contain rounded-tl-xl rounded-tr-xl"
+              className="object-cover rounded-tl-xl rounded-tr-xl"
             />
 
-            <div className="p-10">
-            <div className="flex items-center justify-center gap-4 bg-[#0B7A380D] rounded-full p-4 md:px-8 md:py-4 w-[111px]">
+            <div className="p-4 md:p-10">
+            <div className="flex items-center justify-center gap-4 bg-[#0B7A380D] rounded-full py-2 px-4 md:px-8 md:py-4 w-[111px]">
               <Image src={presshome.icon} alt={presshome.title}
               width={20}
               height={20}/>

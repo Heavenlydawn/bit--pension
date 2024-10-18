@@ -20,7 +20,7 @@ const Header: React.FC = () => {
     <header className="flex items-center justify-between py-9 px-4 lg:px-8">
       {/* Logo */}
       <div>
-        <Image src={Logo} alt="Logo" />
+        <Image src={Logo} alt="Logo" className="w-[80px] md:w-full" />
       </div>
 
       {/* Desktop Navigation */}

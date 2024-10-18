@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/bitPension logo nbg.svg";
 import Facebook from "../../../public/facebook.svg";
@@ -12,8 +13,8 @@ import ButtonDark from "../Buttons/Button__Dark";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F4F2F0] md:py-20 md:px-18 p-8">
-      <div className="flex items-center justify-around flex-col md:flex-row">
+    <footer className="bg-[#F4F2F0] md:py-20 md:px-18 py-8 px-2">
+      <div className="flex md:items-center md:justify-around flex-col md:flex-row">
         <div>
           <Image src={Logo} alt="BitPension Logo" className="py-4" />
           <p className="text-[#7C7C7C] text-lg">
@@ -29,12 +30,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
-          <h2 className="italic text-lg md:text-2xl capitalize font-semibold mb-8">
+        <div className="my-8 md:my-0">
+          <h2 className="italic text-base md:text-2xl capitalize font-semibold mb-8">
             Get an up to date update straight to your email
           </h2>
           <div>
-            <p className="text-[#7C7C7C]">Enter Email </p>
+            <p className="text-[#7C7C7C] font-medium">Enter Email </p>
             <br />
             <div className="flex gap-2 items-center">
               <input
@@ -50,30 +51,30 @@ const Footer = () => {
           <h3 className="font-semibold text-2xl italic my-4">Quick Links:</h3>
           <div className="flex items-start justify-start md:items-center gap-4 md:gap-8 ">
             <div>
-              <div className="flex gap-4 my-4 font-semibold">
+              <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
                 <p className="text-[#7C7C7C] text-lg">Bitcoin Calculator</p>
               </div>
-              <div className="flex gap-4 my-4 font-semibold">
+              <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
                 <p className="text-[#7C7C7C] text-lg">Blog</p>
               </div>
-              <div className="flex gap-4 my-4 font-semibold">
+              <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
                 <p className="text-[#7C7C7C] text-lg">Terms & Conditions</p>
               </div>
             </div>
 
             <div>
-              <div className="flex gap-4 my-4 font-semibold">
+              <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
                 <p className="text-[#7C7C7C] text-lg">FAQ</p>
               </div>
-              <div className="flex gap-4 my-4 font-semibold">
+              <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
                 <p className="text-[#7C7C7C] text-lg">Career</p>
               </div>
-              <div className="flex gap-4 my-4 font-semibold">
+              <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
                 <p className="text-[#7C7C7C] text-lg">Privacy Policy</p>
               </div>

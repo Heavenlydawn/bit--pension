@@ -4,7 +4,7 @@ import BitPensionPressHomeRight from "./BitPensionPressHomeRight";
 
 const BitPensionPressHome = () => {
   return (
-    <div className="flex items-center justify-around flex-col md:flex-row px-8 md:p-0">
+    <div className="flex items-center justify-around gap-8 md:gap-0 flex-col md:flex-row px-2 md:p-0">
       <BitPensionPressHomeLeft />
       <BitPensionPressHomeRight />
     </div>

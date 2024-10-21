@@ -82,16 +82,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center mt-8">
-        <p className="text-[#7C7C7C] text-lg capitalize pt-4 border-t border-t-[#7C7C7C80]">
+      <div className=" mt-8">
+        <p className="text-[#7C7C7C] text-lg capitalize pt-4 border-t border-t-[#7C7C7C80] text-right md:text-center ">
           Disclaimer: Bitpension does not provide any investment, financial,
           tax, legal or other professional advice. We recommend that you consult
-          with financial and tax advisors to understand the risks and <br />
+          with financial and tax advisors to understand the risks and 
           consequences of buying, selling and holding Bitcoin
-          <span className="text-[#0B7A38] font-semibold">
-            © 2024 Bitpension.io. Made with love Africa.
-          </span>
         </p>
+          <div className="text-[#0B7A38] font-semibold mt-8 text-center">
+            © 2024 Bitpension.io. Made For Freedom.
+          </div>
       </div>
     </footer>
   );

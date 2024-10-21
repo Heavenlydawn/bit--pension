@@ -11,18 +11,17 @@ const BitPensionSecurity = () => {
   return (
     <div className="flex md:items-center md:justify-around flex-col md:flex-row bg-[#F8F8FA] px-2 py-12 md:px-36 md:py-28 my-20">
       <div>
-        <h2 className="hidden md:block md:text-3xl leading-[60px] pb-8 md:pb-0 capitalize">
-          <span className="text-[#0B7A38] font-medium">Bitpension</span> uses enterprise-
+        <h2 className="hidden md:block md:text-3xl leading-[70px] pb-8 md:pb-0 capitalize">
+          <span className="text-[#0B7A38] font-medium">Bitpension</span> uses
+          enterprise-
           <br />
           Grade security setup and <br />
           custodian partner.
         </h2>
         {/* Mobile */}
         <h2 className="block md:hidden text-3xl leading-[30px] pb-8 md:pb-0 capitalize">
-          <span className="text-[#0B7A38] font-medium">Bitpension</span> uses <br />
-          enterprise- Grade security
-          <br /> setup and custodian
-          <br /> partner.
+          <span className="text-[#0B7A38] font-medium">Bitpension</span> uses
+          enterprise- Grade security setup and custodian partner.
         </h2>
       </div>
       <div className="flex items-center justify-center gap-4 md:gap-8">

@@ -8,7 +8,7 @@ import Button_Clear from "../Buttons/Button_Dark";
 const PensionPlanRight = () => {
   return (
     <div>
-      <div className="py-20 md:py-0">
+      <div className="py-20 md:py-0 w-full md:w-[322px]">
         <div className="relative">
           <div className="absolute right-5 -top-20">
             <Image src={Employees} alt="Employees Icon" />
@@ -19,31 +19,22 @@ const PensionPlanRight = () => {
         </div>
 
         <section className="flex flex-col gap-6">
-          <div className="flex gap-4">
-            <div>
+          <div className="flex items-start justify-start gap-4">
               <Image src={Tick} alt="Tick Icon" />
-            </div>
-            <div>
               <p className="text-[#454444] text-lg leading-7">
-                Forget Pension and Piggy savings. Take advantage
-                <br /> of Bitcoin long term price movements.
+                Forget Pension and Piggy savings. Take advantage of Bitcoin long term price movements.
               </p>
-            </div>
           </div>
-          <div className="flex gap-4">
-            <div>
+          <div className="flex items-start justify-start gap-4">
               <Image src={Tick} alt="Tick Icon" />
-            </div>
-            <div>
               <p className="text-[#454444] text-lg leading-7">
                 Invest as low as{" "}
                 <span className="underline text-[#0B7A38]">$10</span> of your
-                income in Bitcoin every <br />
+                income in Bitcoin every
                 month and profit on the long term. Start with an
-                <br /> initial deposit of{" "}
+              initial deposit of{" "}
                 <span className="underline text-[#0B7A38]">$1,000</span>.
               </p>
-            </div>
           </div>
         </section>
 

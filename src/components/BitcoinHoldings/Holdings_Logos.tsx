@@ -23,7 +23,7 @@ import FinanceMob from "../../../public/financeMob.png";
 const Holdings_Logos = () => {
   return (
     <main>
-      <h2 className="text-[#7C7C7C] text-lg italic my-4 font-semibold">
+      <h2 className="text-[#7C7C7C] text-lg italic my-4">
         Public companies with Bitcoin holdings:
       </h2>
       <section className="flex flex-col gap-9 bg-white rounded-3xl p-8">
@@ -55,22 +55,22 @@ const Holdings_Logos = () => {
             <Image
               src={HealthLine}
               alt="Tech Line"
-              className="w-[300px] md:w-full hidden md:block"
+              className="hidden md:block"
             />
             <Image
               src={HealthMob}
               alt="Tech Line"
-              className="md:hidden block"
+              className="block md:hidden w-[120px]"
             />
             <Image
               src={FinanceLine}
               alt="Tech Line"
-              className="w-[300px] md:w-full hidden md:block"
+              className="hidden md:block"
             />
             <Image
               src={FinanceMob}
               alt="Tech Line"
-              className="md:hidden block"
+              className="md:hidden block w-[120px]"
             />
             <Image src={AutoLine} alt="Tech Line" className="hidden md:flex" />
             <Image

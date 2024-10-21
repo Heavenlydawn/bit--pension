@@ -7,7 +7,7 @@ import Button_Dark from "../Buttons/Button_Dark";
 const HeroIntro = () => {
   return (
     <div className=" md:py-24">
-      <div className="p-4 md:p-0">
+      <div className="p-4 md:p-0 w-full md:w-[322px]">
         <p className="text=[#7C7C7C] italic text-lg py-4">
           Invest In Bitcoin With Long-Term Confidence.
         </p>
@@ -17,9 +17,7 @@ const HeroIntro = () => {
             <span className="text-[#0B7A38] border-[#0B7A38] border-l-4 border-r-4 px-2 bg-[#F4F2F0]">
               Buy Bitcoin
             </span>{" "}
-            <br />
-            With 100% Full Reserve, Personalize Custody, <br />
-            And Zero Setup Fees.
+            With 100% Full Reserve, Personalize Custody, And Zero Setup Fees.
           </h3>
         </div>
 

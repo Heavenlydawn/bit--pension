@@ -12,7 +12,7 @@ import ButtonDark from "../Buttons/Button__Dark";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F4F2F0] md:py-20 md:px-18 py-8 px-2">
+    <footer className="bg-[#F4F2F0] md:py-20 md:px-18 py-8 px-4">
       <div className="flex md:items-center md:justify-around flex-col md:flex-row">
         <div>
           <Image src={Logo} alt="BitPension Logo" className="py-4" />
@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
 
       <div className=" mt-8">
-        <p className="text-[#7C7C7C] text-lg capitalize pt-4 border-t border-t-[#7C7C7C80] text-right md:text-center ">
+        <p className="text-[#7C7C7C] text-lg capitalize pt-4 border-t border-t-[#7C7C7C80] text-left md:text-center ">
           Disclaimer: Bitpension does not provide any investment, financial,
           tax, legal or other professional advice. We recommend that you consult
           with financial and tax advisors to understand the risks and 

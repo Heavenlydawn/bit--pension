@@ -5,8 +5,8 @@ import Map from "../../../public/map.svg"
 const PensionPlanLeft = () => {
   return (
     <div>
-        <h2 className="text-[#7C7C7C] text-lg italic">Data of Unpaid
-            <span className='underline'>Pension</span>
+        <h2 className="text-[#7C7C7C] text-lg italic">Data of Unpaid{" "}
+            <span className='underline'>Pension</span>{" "}
             Across Various<br /> African Countries
         </h2>
 

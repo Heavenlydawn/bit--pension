@@ -8,7 +8,7 @@ const BitChatRight = () => {
     <div className="px-4 md:px-14 md:w-[674px]">
       <div>
         <h1 className="text-3xl my-8 leading-10">
-          Why
+          Why{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FECA00] to-[#D19228]">
           Bitcoin -
           </span>

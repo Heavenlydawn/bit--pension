@@ -6,7 +6,7 @@ import Button_Dark from "../Buttons/Button_Dark";
 
 const HeroIntro = () => {
   return (
-    <div className=" md:py-24">
+    <div className="px-4 md:px-0 md:py-24">
       <div className="p-4 md:p-0 w-full md:w-[750px]">
         <p className="text=[#7C7C7C] italic text-lg py-4">
           Invest In Bitcoin With Long-Term Confidence.

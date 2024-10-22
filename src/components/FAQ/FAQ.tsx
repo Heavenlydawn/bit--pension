@@ -23,7 +23,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
         className="flex justify-between items-center cursor-pointer p-4"
         onClick={toggleOpen}
       >
-        <span className="text-lg font-medium ">{question}</span>
+        <span className="text-base md:text-lg ">{question}</span>
         <button className="text-lg md:text-2xl font-bold">
           <Image src={ArrowDown} alt="Arrow" /> {isOpen ? " " : " "}{" "}
         </button>
@@ -43,8 +43,8 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
 
 const FAQ: React.FC = () => {
   return (
-    <div className="w-full max-w-6xl mx-auto my-20 px-2 md:px-0">
-      <h2 className="text-5xl md:text-center font-semibold pb-4 leading-[50px]">
+    <div className="w-full max-w-6xl mx-auto my-20 px-4 md:px-0">
+      <h2 className="text-5xl md:text-center pb-4 leading-[50px]">
         Frequently Asked <span className="text-[#0B7A38]"> Questions</span>
       </h2>
       {faqData.map((item, index) => (

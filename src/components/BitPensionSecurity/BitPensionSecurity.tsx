@@ -9,7 +9,7 @@ import Security from "../../../public/securityMobile.png";
 
 const BitPensionSecurity = () => {
   return (
-    <div className="flex md:items-center md:justify-around flex-col md:flex-row bg-[#F8F8FA] px-2 py-12 md:px-36 md:py-28 my-20">
+    <div className="flex md:items-center md:justify-around flex-col md:flex-row bg-[#F8F8FA] px-4 py-12 md:px-36 md:py-28 my-20">
       <div>
         <h2 className="hidden md:block md:text-3xl leading-[70px] pb-8 md:pb-0 capitalize">
           <span className="text-[#0B7A38] font-medium">Bitpension</span> uses

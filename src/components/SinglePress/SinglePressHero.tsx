@@ -48,8 +48,8 @@ const SinglePressHero: React.FC<Props> = ({ params }) => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 mt-12 md:mt-24">
         <div className="flex justify-between">
           <Image src={TC} alt="Icon" className="md:mt-[-300px] hidden md:block" />
-          <Image src={TCMobile} alt="Icon" className="block md:hidden mt-[-100px]  w-[150px] h-[150px]" />
-          <p className="text-[#B3B0B0] text-sm block md:hidden">{pressItem.date}</p>
+          <Image src={TCMobile} alt="Icon" className="block md:hidden mt-[-150px]" />
+          <p className="text-[#B3B0B0] block md:hidden">{pressItem.date}</p>
         </div>
 
         <div className="md:w-[684px]">

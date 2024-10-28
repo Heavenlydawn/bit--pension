@@ -14,7 +14,7 @@ const PensionPlanRight = () => {
             <Image src={Employees} alt="Employees Icon" />
           </div>
           <p className="text-3xl leading-10 mb-4">
-          Not Satisfied with Your<br /> Current Pension Plan? <br />BitPension Has You Covered!
+          Not Satisfied with Your<br /> Current Pension Plan? <br />Bitpension Has You Covered!
           </p>
         </div>
 

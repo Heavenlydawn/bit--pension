@@ -16,7 +16,7 @@ const PensionStatisticsLeft = () => {
             </div>
             <p className="text-2xl md:text-3xl font-medium leading-10 mb-4">
               Self-Employed or An Entrepreneur? Take Control of Your Pension
-              with BitPension
+              with Bitpension
             </p>
           </div>
 

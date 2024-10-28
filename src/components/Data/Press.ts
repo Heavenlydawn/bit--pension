@@ -4,7 +4,7 @@ export const press = [
     image: "/press2.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement Planning with Bitcoin Savings",
+    title: "Bitpension Revolutionizes Retirement Planning with Bitcoin Savings",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -16,7 +16,7 @@ export const press = [
     image: "/press3.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -28,7 +28,7 @@ export const press = [
     image: "/press4.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -40,7 +40,7 @@ export const press = [
     image: "/press5.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -51,7 +51,7 @@ export const press = [
     image: "/press2.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -63,7 +63,7 @@ export const press = [
     image: "/press3.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -75,7 +75,7 @@ export const press = [
     image: "/press4.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -87,7 +87,7 @@ export const press = [
     image: "/press5.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -99,7 +99,7 @@ export const press = [
     image: "/press2.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -110,7 +110,7 @@ export const press = [
     image: "/press3.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -121,7 +121,7 @@ export const press = [
     image: "/press4.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -132,7 +132,7 @@ export const press = [
     image: "/press5.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -143,7 +143,7 @@ export const press = [
     image: "/press2.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -154,7 +154,7 @@ export const press = [
     image: "/press3.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -165,7 +165,7 @@ export const press = [
     image: "/press4.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -176,7 +176,7 @@ export const press = [
     image: "/press5.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -187,7 +187,7 @@ export const press = [
     image: "/press2.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -198,7 +198,7 @@ export const press = [
     image: "/press3.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -209,7 +209,7 @@ export const press = [
     image: "/press4.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -220,7 +220,7 @@ export const press = [
     image: "/press5.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -231,7 +231,7 @@ export const press = [
     image: "/press2.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -242,7 +242,7 @@ export const press = [
     image: "/press3.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -253,7 +253,7 @@ export const press = [
     image: "/press4.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:
@@ -264,7 +264,7 @@ export const press = [
     image: "/press5.png",
     icon: "/tc.svg",
     iconText: "Techcabal",
-    title: "BitPension Revolutionizes Retirement",
+    title: "Bitpension Revolutionizes Retirement",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     date: "SEPT 20, 2024",
     fullText:

@@ -13,7 +13,7 @@ const HeroIntro = () => {
         </p>
         <div>
           <h3 className="text-3xl md:text-5xl leading-10 md:leading-[62px]">
-            BitPension is The Best Place To{" "}
+            Bitpension is The Best Place To{" "}
             <span className="text-[#0B7A38] border-[#0B7A38] border-l-4 border-r-4 px-2 bg-[#F4F2F0]">
               Buy Bitcoin
             </span>{" "}

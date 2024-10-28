@@ -17,7 +17,7 @@ const BitPensionPressHomeRight = () => {
               alt={`Logo of ${presshome.image}`}
               width={380}
               height={168}
-              className="object-cover rounded-tl-xl rounded-tr-xl"
+              className="object-cover rounded-tl-xl rounded-tr-xl w-full"
             />
 
             <div className="p-4 md:p-10">

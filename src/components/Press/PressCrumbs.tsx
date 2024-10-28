@@ -34,7 +34,7 @@ const PressCrumbs: React.FC = () => {
         <h1 className="italic text-3xl md:text-5xl my-8">
         More Press Release:
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-center rounded-xl">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center rounded-xl">
         {currentItems.map((pressItem, index) => (
             <Link href={`/press/${pressItem.id}`} key={index}>
           <div
@@ -47,7 +47,7 @@ const PressCrumbs: React.FC = () => {
                 alt={`Logo of ${pressItem.image}`}
                 width={380}
                 height={168}
-                className="object-cover transform transition-transform duration-300 hover:scale-105"
+                className="object-cover transform transition-transform duration-300 hover:scale-105 w-full"
               />
             </div>
 

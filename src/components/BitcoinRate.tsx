@@ -52,7 +52,7 @@ const BitcoinRate = () => {
       <Typography variant="body1" fontWeight="bold" sx={{
         maxWidth: '100%',
         '@media (max-width: 600px)': {
-          fontSize:"10px",
+          fontSize:"12px",
         },
       }}>
         1BTC/${btcPrice ? btcPrice.toLocaleString('en-US') : 'N/A'} USD
@@ -69,7 +69,7 @@ const BitcoinRate = () => {
           bgcolor: priceChange && priceChange > 0 ? '#E6FFE6' : '#FFE6E6',
           '@media (max-width: 600px)': {
             ml: 0,
-            fontSize:"10px",
+            fontSize:"12px",
           },
         }}
       >

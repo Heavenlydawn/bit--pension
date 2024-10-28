@@ -27,7 +27,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
         className="flex justify-between items-center cursor-pointer p-4"
         onClick={toggleOpen}
       >
-        <span className="text-lg">{question}</span>
+        <span className="text-base md:text-lg">{question}</span>
         <button className="text-lg md:text-2xl font-bold">
           <Image src={ArrowDown} alt="Arrow" /> {isOpen ? " " : " "}{" "}
         </button>
@@ -72,7 +72,7 @@ const BitFaq: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex justify-center flex-col md:flex-row gap-24 mb-8 border-t border-t-gray-100 pt-12">
+      <div className="flex justify-center flex-col md:flex-row gap-24 mb-4 md:mb-8 border-t border-t-gray-100 pt-12">
         <div>
           <h2 className="text-4xl font-semibold pb-4">Bitcoin FAQs</h2>
           <p className="text-[#7C7C7C] text-xl">
@@ -96,7 +96,7 @@ const BitFaq: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex justify-center flex-col md:flex-row gap-24 mb-8 border-t border-t-gray-100 pt-12">
+      <div className="flex justify-center flex-col md:flex-row gap-24 mb-4 md:mb-8 border-t border-t-gray-100 pt-12">
         <div>
           <h2 className="text-4xl font-semibold pb-4">Pension FAQs</h2>
           <p className="text-[#7C7C7C] text-xl">

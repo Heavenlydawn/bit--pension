@@ -29,20 +29,51 @@ const BitcoinRate = () => {
   }, []);
 
   return (
-    <Box display="flex" alignItems="center" py={1} px={2} borderRadius="50px" bgcolor="#F4F2F0">
-      <Box mr={2}>
-        <Image src={BitCoinRate} alt="Bitcoin Logo" />
+    <Box
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      py={1}
+      px={2}
+      borderRadius="50px"
+      bgcolor="#F4F2F0"
+      sx={{
+        maxWidth: '100%',
+        '@media (max-width: 600px)': {
+          bgcolor:'transparent',
+          py: 0.5,
+          px: 1,
+        },
+      }}
+    >
+      <Box mr={2} display="flex" alignItems="center" justifyContent='center'>
+        <Image src={BitCoinRate} alt="Bitcoin Logo" width={24} height={24} className="hidden md:block" />
       </Box>
-      <Typography variant="h6">
-        BTC: ${btcPrice ? btcPrice.toLocaleString('en-US') : 'N/A'} USD
+      <Typography variant="body1" fontWeight="bold" sx={{
+        maxWidth: '100%',
+        '@media (max-width: 600px)': {
+          fontSize:"10px",
+        },
+      }}>
+        1BTC/${btcPrice ? btcPrice.toLocaleString('en-US') : 'N/A'} USD
       </Typography>
       <Typography
         variant="body2"
         color={priceChange && priceChange > 0 ? 'green' : 'red'}
         ml={2}
-        className="bg-[#03D4180D] px-4 py-2 font-bold text-lg rounded"
+        sx={{
+          display: 'inline-block',
+          padding: '2px 8px',
+          fontWeight: 'bold',
+          borderRadius: '4px',
+          bgcolor: priceChange && priceChange > 0 ? '#E6FFE6' : '#FFE6E6',
+          '@media (max-width: 600px)': {
+            ml: 0,
+            fontSize:"10px",
+          },
+        }}
       >
-        {priceChange !== null ? `${priceChange > 0 ? `+ ${priceChange}%` : `${priceChange}%`}` : 'N/A'}
+        {priceChange !== null ? `${priceChange > 0 ? `+${priceChange}%` : `${priceChange}%`}` : 'N/A'}
       </Typography>
     </Box>
   );

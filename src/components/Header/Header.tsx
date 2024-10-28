@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BitcoinRate from "../BitcoinRate";
 import Logo from "../../../public/bitPension logo nbg.svg";
+import LogoMobile from "../../../public/logoMobile.svg";
 import Globe from "../../../public/browser_icon.svg";
 import DownArrow from "../../../public/down_arrow_icon.svg";
 import Button_Light from "../Buttons/Button_Light";
@@ -17,10 +18,11 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="flex items-center justify-between py-9 px-4 lg:px-8">
+    <header className="flex items-center justify-between py-9 lg:px-8">
       {/* Logo */}
       <div>
-        <Image src={Logo} alt="Logo" className="w-[80px] md:w-full" />
+        <Image src={Logo} alt="Logo" className=" hidden md:block" />
+        <Image src={LogoMobile} alt="Logo" className=" block md:hidden" />
       </div>
 
       {/* Desktop Navigation */}
@@ -36,7 +38,10 @@ const Header: React.FC = () => {
             <Link href="/story">Story</Link>
           </li>
           <li>
-            <Link href="/">What is Bitcoin</Link>
+            <Link href="/faq">FAQ</Link>
+          </li>
+          <li>
+            <Link href="/">What is Bitcoin?</Link>
           </li>
         </ul>
       </nav>
@@ -57,13 +62,17 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Hamburger Button */}
+      <div className="flex">
+      <div className="block md:hidden">
+            <BitcoinRate />
+          </div>
       <button onClick={toggleMenu} className="lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="w-8 h-8"
+          className="w-6 h-6"
         >
           <path
             strokeLinecap="round"
@@ -73,6 +82,9 @@ const Header: React.FC = () => {
           />
         </svg>
       </button>
+      
+      </div>
+ 
 
       {/* Mobile Slide-In Menu */}
       {isOpen && (
@@ -93,9 +105,6 @@ const Header: React.FC = () => {
               />
             </svg>
           </button>
-          <div className="mb-4">
-            <BitcoinRate />
-          </div>
           <ul className="flex flex-col gap-6 text-[#7C7C7C] text-lg">
             <li onClick={toggleMenu}>
               <Link href="/press">Press</Link>
@@ -103,8 +112,11 @@ const Header: React.FC = () => {
             <li onClick={toggleMenu}>
               <Link href="/story">Story</Link>
             </li>
+            <li>
+            <Link href="/faq">FAQ</Link>
+          </li>
             <li onClick={toggleMenu}>
-              <Link href="/">What is Bitcoin</Link>
+              <Link href="/">What is Bitcoin?</Link>
             </li>
           </ul>
           <div className="mt-8 flex items-center gap-4">

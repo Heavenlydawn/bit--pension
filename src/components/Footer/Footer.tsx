@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
 import Logo from "../../../public/bitPension logo nbg.svg";
 import Facebook from "../../../public/facebook.svg";
 import X from "../../../public/X.svg";
@@ -20,12 +21,12 @@ const Footer = () => {
             Lorem Ipsum is simply dummy text of the printing
           </p>
           <div className="flex items-center justify-around py-4">
-            <Image src={Facebook} alt="Facebook" />
-            <Image src={X} alt="X" />
-            <Image src={Instagram} alt="Instagram" />
-            <Image src={LinkedIn} alt="LinkedIn" />
-            <Image src={TikTok} alt="TikTok" />
-            <Image src={YouTube} alt="YouTube" />
+            <Link href='/next-env.d.ts'><Image src={Facebook} alt="Facebook" /></Link>
+            <Link href='/next-env.d.ts'><Image src={X} alt="X" /></Link>
+            <Link href='/next-env.d.ts'><Image src={Instagram} alt="Instagram" /></Link>
+            <Link href='/next-env.d.ts'><Image src={LinkedIn} alt="LinkedIn" /></Link>
+            <Link href='/next-env.d.ts'><Image src={TikTok} alt="TikTok" /></Link>
+            <Link href='/next-env.d.ts'><Image src={YouTube} alt="YouTube" /></Link>
           </div>
         </div>
 

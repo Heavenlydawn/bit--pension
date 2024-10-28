@@ -27,7 +27,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
         className="flex justify-between items-center cursor-pointer p-4"
         onClick={toggleOpen}
       >
-        <span className="text-lg font-medium ">{question}</span>
+        <span className="text-lg">{question}</span>
         <button className="text-lg md:text-2xl font-bold">
           <Image src={ArrowDown} alt="Arrow" /> {isOpen ? " " : " "}{" "}
         </button>
@@ -53,7 +53,7 @@ const BitFaq: React.FC = () => {
           <h2 className="text-4xl font-semibold pb-4">General FAQs</h2>
           <p className="text-[#7C7C7C] text-xl">
             Everything you need to knw about Bitpension and
-            <br /> how it works, cant find your answers ?
+             how it works, cant find your answers ?
           </p>
           <Link href="/contact">
             <p className="italic text-xl text-[#0B7A38] underline font-semibold my-4">
@@ -77,7 +77,7 @@ const BitFaq: React.FC = () => {
           <h2 className="text-4xl font-semibold pb-4">Bitcoin FAQs</h2>
           <p className="text-[#7C7C7C] text-xl">
             Everything you need to knw about Bitpension and
-            <br /> how it works, cant find your answers ?
+            how it works, cant find your answers ?
           </p>
           <Link href="/contact">
             <p className="italic text-xl text-[#0B7A38] underline font-semibold my-4">
@@ -101,7 +101,7 @@ const BitFaq: React.FC = () => {
           <h2 className="text-4xl font-semibold pb-4">Pension FAQs</h2>
           <p className="text-[#7C7C7C] text-xl">
             Everything you need to knw about Bitpension and
-            <br /> how it works, cant find your answers ?
+             how it works, cant find your answers ?
           </p>
           <Link href="/contact">
             <p className="italic text-xl text-[#0B7A38] underline font-semibold my-4">

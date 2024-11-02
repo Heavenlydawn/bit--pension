@@ -1,13 +1,13 @@
 import React from 'react'
-import SinglePress from "../../../../components/SinglePress/SinglePress"
+import SinglePressPage from "../../../../components/SinglePress/SinglePress"
 
 
-const SingleBlog = () => {
+const SinglePress = () => {
   return (
     <div>
-      <SinglePress />
+      <SinglePressPage />
     </div>
   )
 }
 
-export default SingleBlog
+export default SinglePress

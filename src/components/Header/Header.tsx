@@ -38,10 +38,13 @@ const Header: React.FC = () => {
             <Link href="/story">Story</Link>
           </li>
           <li>
+            <Link href="/blog">Blog</Link>
+          </li>
+          <li>
             <Link href="/faq">FAQ</Link>
           </li>
           <li>
-            <Link href="/">What is Bitcoin?</Link>
+            <Link href="/bitcoin">What is Bitcoin?</Link>
           </li>
         </ul>
       </nav>
@@ -113,10 +116,13 @@ const Header: React.FC = () => {
               <Link href="/story">Story</Link>
             </li>
             <li>
+            <Link href="/blog">Blog</Link>
+          </li>
+            <li>
             <Link href="/faq">FAQ</Link>
           </li>
             <li onClick={toggleMenu}>
-              <Link href="/">What is Bitcoin?</Link>
+              <Link href="/bitcoin">What is Bitcoin?</Link>
             </li>
           </ul>
           <div className="mt-8 flex items-center gap-4">

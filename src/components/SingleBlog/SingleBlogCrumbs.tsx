@@ -5,7 +5,7 @@ import { press } from "../Data/Press";
 import Prev from "../../../public/Prev.svg";
 import Next from "../../../public/Next.svg";
 
-const PressCrumbs: React.FC = () => {
+const SingleBlogCrumbs: React.FC = () => {
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
@@ -32,7 +32,7 @@ const PressCrumbs: React.FC = () => {
   return (
     <div>
         <h1 className="italic text-3xl md:text-5xl my-8">
-        More Press Release:
+        More Blog Post:
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center rounded-xl">
         {currentItems.map((pressItem, index) => (
@@ -114,4 +114,4 @@ const PressCrumbs: React.FC = () => {
   );
 };
 
-export default PressCrumbs;
+export default SingleBlogCrumbs;

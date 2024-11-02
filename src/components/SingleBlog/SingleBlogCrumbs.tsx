@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link"
-import { press } from "../Data/Press";
+import { blog } from "../Data/Blog";
 import Prev from "../../../public/Prev.svg";
 import Next from "../../../public/Next.svg";
 
@@ -11,10 +11,10 @@ const SingleBlogCrumbs: React.FC = () => {
   const itemsPerPage = 8;
 
   // Calculate total pages and current items
-  const totalPages = Math.ceil(press.length / itemsPerPage);
+  const totalPages = Math.ceil(blog.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const currentItems = press.slice(startIndex, endIndex);
+  const currentItems = blog.slice(startIndex, endIndex);
 
   // Handle pagination navigation
   const handlePageChange = (page: number) => {
@@ -35,16 +35,16 @@ const SingleBlogCrumbs: React.FC = () => {
         More Blog Post:
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center rounded-xl">
-        {currentItems.map((pressItem, index) => (
-            <Link href={`/press/${pressItem.id}`} key={index}>
+        {currentItems.map((blogItem, index) => (
+            <Link href={`/blog/${blogItem.id}`} key={index}>
           <div
             key={index}
             className="shadow-sm hover:shadow-md transition-shadow bg-[#F8F8FA] md:w-[380px]"
           >
             <div className="overflow-hidden rounded-tl-xl rounded-tr-xl">
               <Image
-                src={pressItem.image}
-                alt={`Logo of ${pressItem.image}`}
+                src={blogItem.image}
+                alt={`Logo of ${blogItem.image}`}
                 width={380}
                 height={168}
                 className="object-cover transform transition-transform duration-300 hover:scale-105 w-full"
@@ -54,22 +54,22 @@ const SingleBlogCrumbs: React.FC = () => {
             <div className="p-4 md:p-10">
               <div className="flex items-center justify-center gap-4 bg-[#0B7A380D] rounded-full py-2 px-4 md:px-8 md:py-4 w-[111px]">
                 <Image
-                  src={pressItem.icon}
-                  alt={pressItem.title}
+                  src={blogItem.icon}
+                  alt={blogItem.title}
                   width={20}
                   height={20}
                 />
                 <p className="text-base text-[#0B7A38] font-semibold">
-                  {pressItem.iconText}
+                  {blogItem.iconText}
                 </p>
               </div>
 
               <h2 className="text-xl md:text-4xl font-semibold my-4">
-                {pressItem.title}
+                {blogItem.title}
               </h2>
-              <p className="text-[#7C7C7C] text-lg">{pressItem.text}</p>
+              <p className="text-[#7C7C7C] text-lg">{blogItem.text}</p>
 
-              <h4 className="text-sm font-bold mt-12">{pressItem.date}</h4>
+              <h4 className="text-sm font-bold mt-12">{blogItem.date}</h4>
             </div>
           </div>
           </Link>

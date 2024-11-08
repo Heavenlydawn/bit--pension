@@ -60,6 +60,7 @@ const BitcoinInfo: React.FC = () => {
     <div className="flex my-14 md:mx-12">
       {/* Sidebar Navigation */}
       <aside className="md:w-[317px] p-4 hidden md:block">
+        
         <ul className="space-y-4 border-l border-[#D7D7D7] ">
           {Object.keys(contentData).map((section) => (
             <li

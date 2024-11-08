@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import Image from "next/image";
 import arrowIcon from "../../../public/bitcalcarrow.png";
-// import USA from "../../../public/usaIcon.svg";
 import BitcoinIcon from "../../../public/logos_bitcoin.svg";
 import Attention from "../../../public/Attention.svg";
 import BtcPrice from "./BtcPrice";
@@ -14,11 +13,7 @@ const BitCalcHero: React.FC = () => {
   const [conversion, setConversion] = useState<number | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
-  useEffect(() => {
-    fetchBitcoinPrice();
-  }, [currency]);
-
-  const fetchBitcoinPrice = async () => {
+  const fetchBitcoinPrice = useCallback(async () => {
     setLoading(true);
     try {
       const response = await axios.get(
@@ -30,7 +25,7 @@ const BitCalcHero: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [currency]);
 
   const handleAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setAmount(Number(e.target.value));
@@ -40,15 +35,19 @@ const BitCalcHero: React.FC = () => {
     setCurrency(e.target.value);
   };
 
-  const calculateConversion = () => {
+  const calculateConversion = useCallback(() => {
     if (bitcoinPrice) {
       setConversion(amount / bitcoinPrice);
     }
-  };
+  }, [amount, bitcoinPrice]);
+
+  useEffect(() => {
+    fetchBitcoinPrice();
+  }, [currency, fetchBitcoinPrice]);
 
   useEffect(() => {
     calculateConversion();
-  }, [amount, bitcoinPrice]);
+  }, [amount, bitcoinPrice, calculateConversion]);
 
   return (
     <div className="md:w-[1264px] mx-auto md:p-8 rounded-xl">
@@ -65,7 +64,6 @@ const BitCalcHero: React.FC = () => {
 
       <main className="px-4 py-12 md:px-[32px] md:py-[30px] bg-[#F8F8FA]">
         <div className="flex md:items-center justify-center flex-col md:flex-row gap-12 md-gap:0">
-
           <div className="flex md:items-center flex-col md:flex-row gap-8 my-8">
             <div>
               <label className="block text-sm font-medium text-gray-700">
@@ -88,10 +86,7 @@ const BitCalcHero: React.FC = () => {
                 onChange={handleCurrencyChange}
                 className="mt-1 px-2 py-4 w-full rounded-md outline-none border-none"
               >
-                <option value="USD">
-                  {/* <Image src={USA} alt="USA-Icon" /> */}
-                  USD - United States Dollar
-                </option>
+                <option value="USD">USD - United States Dollar</option>
                 <option value="EUR">EUR - Euro</option>
                 <option value="GBP">GBP - British Pound</option>
               </select>

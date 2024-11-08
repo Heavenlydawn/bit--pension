@@ -53,22 +53,30 @@ const Footer = () => {
             <div>
               <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
+                <Link href="/calculator">
                 <p className="text-[#7C7C7C] text-lg">Bitcoin Calculator</p>
+                </Link>
               </div>
               <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
+                <Link href="/blog">
                 <p className="text-[#7C7C7C] text-lg">Blog</p>
+                </Link>
               </div>
               <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
+                <Link href="/">
                 <p className="text-[#7C7C7C] text-lg">Terms & Conditions</p>
+                </Link>
               </div>
             </div>
 
             <div>
               <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
+                <Link href="/faq">
                 <p className="text-[#7C7C7C] text-lg">FAQ</p>
+                </Link>
               </div>
               <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
@@ -76,7 +84,9 @@ const Footer = () => {
               </div>
               <div className="flex gap-8 md:gap-4 my-4 font-semibold">
                 <Image src={GrayDot} alt="GrayDot" />
+                <Link href="/">
                 <p className="text-[#7C7C7C] text-lg">Privacy Policy</p>
+                </Link>
               </div>
             </div>
           </div>

@@ -15,10 +15,9 @@ const BlogCrumbs: React.FC = () => {
   const filterOptions = ["All", "Bitcoin", "Retirement"];
 
   // Filtered blog items based on selected filter
-  const filteredBlog =
-    selectedFilter === "All"
-      ? blog
-      : blog.filter((item) => item.category === selectedFilter);
+  const filteredBlog = selectedFilter === "All"
+    ? blog
+    : blog.filter((item) => item.category === selectedFilter);
 
   // Calculate total pages and current items
   const totalPages = Math.ceil(filteredBlog.length / itemsPerPage);
@@ -49,21 +48,21 @@ const BlogCrumbs: React.FC = () => {
     <div>
       {/* Filter Bar */}
       <div className="flex items-center mb-8">
-        {filterOptions.map((filter) => (
-          <div key={filter} className="border-b border-[#D7D7D7]">
-            <button
-              onClick={() => handleFilterChange(filter)}
-              className={`text-lg font-semibold pb-2 px-8 ${
-                selectedFilter === filter
-                  ? "text-[#0B7A38] border-b-2 border-[#0B7A38]"
-                  : "text-[#7C7C7C]"
-              }`}
-            >
-              {filter}
-            </button>
-          </div>
-        ))}
-      </div>
+  {filterOptions.map((filter) => (
+    <div key={filter} className="border-b border-[#D7D7D7]">
+      <button
+        onClick={() => handleFilterChange(filter)}
+        className={`text-lg font-semibold pb-2 px-8 ${
+          selectedFilter === filter
+            ? "text-[#0B7A38] border-b-2 border-[#0B7A38]"
+            : "text-[#7C7C7C]"
+        }`}
+      >
+        {filter}
+      </button>
+    </div>
+  ))}
+</div>
 
       {/* Blog items */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center rounded-xl bg-[#F8F8FA] md:p-12">

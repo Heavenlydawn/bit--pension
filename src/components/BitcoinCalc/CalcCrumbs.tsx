@@ -5,10 +5,10 @@ import { blog } from "../Data/Blog";
 import Prev from "../../../public/Prev.svg";
 import Next from "../../../public/Next.svg";
 
-const SingleBlogCrumbs: React.FC = () => {
+const CalcCrumbs: React.FC = () => {
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 8;
+  const itemsPerPage = 4;
 
   // Calculate total pages and current items
   const totalPages = Math.ceil(blog.length / itemsPerPage);
@@ -114,4 +114,4 @@ const SingleBlogCrumbs: React.FC = () => {
   );
 };
 
-export default SingleBlogCrumbs;
+export default CalcCrumbs;

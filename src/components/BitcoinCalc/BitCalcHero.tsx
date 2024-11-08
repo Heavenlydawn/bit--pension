@@ -4,7 +4,7 @@ import Image from "next/image";
 import arrowIcon from "../../../public/bitcalcarrow.png";
 // import USA from "../../../public/usaIcon.svg";
 import BitcoinIcon from "../../../public/logos_bitcoin.svg";
-import Attention from "../../../public/attention.svg";
+import Attention from "../../../public/Attention.svg";
 import BtcPrice from "./BtcPrice";
 
 const BitCalcHero: React.FC = () => {

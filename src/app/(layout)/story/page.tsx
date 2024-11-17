@@ -1,8 +1,8 @@
 import React from 'react'
-
+import StoryPage from '@/components/Story/Story'
 const Story = () => {
   return (
-    <div>story</div>
+    <div><StoryPage /></div>
   )
 }
 

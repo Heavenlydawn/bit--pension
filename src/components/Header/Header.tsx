@@ -46,6 +46,9 @@ const Header: React.FC = () => {
           <li>
             <Link href="/bitcoin">What is Bitcoin?</Link>
           </li>
+          <li>
+            <Link href="/payment">Payment Plan</Link>
+          </li>
         </ul>
       </nav>
 
@@ -123,6 +126,9 @@ const Header: React.FC = () => {
           </li>
             <li onClick={toggleMenu}>
               <Link href="/bitcoin">What is Bitcoin?</Link>
+            </li>
+            <li onClick={toggleMenu}>
+              <Link href="/payment">Payment Plan</Link>
             </li>
           </ul>
           <div className="mt-8 flex items-center gap-4">

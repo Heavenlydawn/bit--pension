@@ -62,7 +62,7 @@ const BitFaq: React.FC = () => {
           </Link>
         </div>
         <div>
-          {bitcoinfaq.map((item, index) => (
+          {generalfaq.map((item, index) => (
             <FAQItem
               key={index}
               question={item.question}
@@ -86,7 +86,7 @@ const BitFaq: React.FC = () => {
           </Link>
         </div>
         <div>
-          {pensionfaq.map((item, index) => (
+          {bitcoinfaq.map((item, index) => (
             <FAQItem
               key={index}
               question={item.question}
@@ -110,7 +110,7 @@ const BitFaq: React.FC = () => {
           </Link>
         </div>
         <div>
-          {generalfaq.map((item, index) => (
+          {pensionfaq.map((item, index) => (
             <FAQItem
               key={index}
               question={item.question}
